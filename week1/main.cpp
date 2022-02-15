@@ -8,7 +8,7 @@ int main() {
 	int window_y = 700;
 	
 	Simple_window win(window_point,window_x,window_y,"Window");
-	
+	"komment"
 	win.wait_for_button();
 	
 	return 0;
