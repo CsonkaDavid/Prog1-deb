@@ -5,7 +5,10 @@ Gui: rbesenczi/Prog1 - week02-06/GUI
 
 g++ main.cpp Graph.cpp Window.cpp GUI.cpp Simple_window.cpp -o main `fltk-config --ldflags --use-images`
 
+git clone {repo-link}
 git config user.name {username}
 git config user.email {email}
 
-
+git commit -m "valami üzenet"
+git push
+(!token használat esetén password helyett token használata!)
